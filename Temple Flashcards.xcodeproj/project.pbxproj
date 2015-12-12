@@ -7,21 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C749EFE51BEAA4DE0033D62F /* templeIcon120x120-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C749EFE31BEAA4DE0033D62F /* templeIcon120x120-white.png */; };
+		C749EFE61BEAA4DE0033D62F /* templeIcon180x180-white.png in Resources */ = {isa = PBXBuildFile; fileRef = C749EFE41BEAA4DE0033D62F /* templeIcon180x180-white.png */; };
+		C799EDAE1BE7B2A200E42C6C /* Temple.swift in Sources */ = {isa = PBXBuildFile; fileRef = C799EDAD1BE7B2A200E42C6C /* Temple.swift */; };
+		C799EDB21BE7C23C00E42C6C /* TempleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C799EDB11BE7C23C00E42C6C /* TempleTableViewCell.swift */; };
+		C7FA96D51BE2F38B00223ACA /* TempleCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FA96D41BE2F38B00223ACA /* TempleCardView.swift */; };
+		C7FA96D71BE2F5E000223ACA /* Temple Photos in Resources */ = {isa = PBXBuildFile; fileRef = C7FA96D61BE2F5E000223ACA /* Temple Photos */; };
 		C7FC20291BDE70F700DCA643 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC20281BDE70F700DCA643 /* AppDelegate.swift */; };
-		C7FC202B1BDE70F700DCA643 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC202A1BDE70F700DCA643 /* ViewController.swift */; };
 		C7FC202E1BDE70F700DCA643 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FC202C1BDE70F700DCA643 /* Main.storyboard */; };
 		C7FC20301BDE70F700DCA643 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C7FC202F1BDE70F700DCA643 /* Assets.xcassets */; };
 		C7FC20331BDE70F700DCA643 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C7FC20311BDE70F700DCA643 /* LaunchScreen.storyboard */; };
+		C7FC203F1BDE71BB00DCA643 /* MainPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC203E1BDE71BB00DCA643 /* MainPageViewController.swift */; };
+		C7FC20411BDE792F00DCA643 /* CardCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7FC20401BDE792F00DCA643 /* CardCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C749EFE31BEAA4DE0033D62F /* templeIcon120x120-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "templeIcon120x120-white.png"; path = "../templeIcon120x120-white.png"; sourceTree = "<group>"; };
+		C749EFE41BEAA4DE0033D62F /* templeIcon180x180-white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "templeIcon180x180-white.png"; path = "../templeIcon180x180-white.png"; sourceTree = "<group>"; };
+		C799EDAD1BE7B2A200E42C6C /* Temple.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Temple.swift; sourceTree = "<group>"; };
+		C799EDB11BE7C23C00E42C6C /* TempleTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleTableViewCell.swift; sourceTree = "<group>"; };
+		C7FA96D41BE2F38B00223ACA /* TempleCardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TempleCardView.swift; sourceTree = "<group>"; };
+		C7FA96D61BE2F5E000223ACA /* Temple Photos */ = {isa = PBXFileReference; lastKnownFileType = folder; path = "Temple Photos"; sourceTree = "<group>"; };
 		C7FC20251BDE70F700DCA643 /* Temple Flashcards.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Temple Flashcards.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C7FC20281BDE70F700DCA643 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C7FC202A1BDE70F700DCA643 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C7FC202D1BDE70F700DCA643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C7FC202F1BDE70F700DCA643 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C7FC20321BDE70F700DCA643 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C7FC20341BDE70F700DCA643 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C7FC203E1BDE71BB00DCA643 /* MainPageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainPageViewController.swift; sourceTree = "<group>"; };
+		C7FC20401BDE792F00DCA643 /* CardCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +52,7 @@
 		C7FC201C1BDE70F700DCA643 = {
 			isa = PBXGroup;
 			children = (
+				C7FA96D61BE2F5E000223ACA /* Temple Photos */,
 				C7FC20271BDE70F700DCA643 /* Temple Flashcards */,
 				C7FC20261BDE70F700DCA643 /* Products */,
 			);
@@ -54,14 +69,52 @@
 		C7FC20271BDE70F700DCA643 /* Temple Flashcards */ = {
 			isa = PBXGroup;
 			children = (
-				C7FC20281BDE70F700DCA643 /* AppDelegate.swift */,
-				C7FC202A1BDE70F700DCA643 /* ViewController.swift */,
-				C7FC202C1BDE70F700DCA643 /* Main.storyboard */,
-				C7FC202F1BDE70F700DCA643 /* Assets.xcassets */,
-				C7FC20311BDE70F700DCA643 /* LaunchScreen.storyboard */,
-				C7FC20341BDE70F700DCA643 /* Info.plist */,
+				C7FC203C1BDE714B00DCA643 /* Model */,
+				C7FC203A1BDE713300DCA643 /* Controller */,
+				C7FC203B1BDE714400DCA643 /* View */,
+				C7FC203D1BDE716D00DCA643 /* Supporting Files */,
 			);
 			path = "Temple Flashcards";
+			sourceTree = "<group>";
+		};
+		C7FC203A1BDE713300DCA643 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC203E1BDE71BB00DCA643 /* MainPageViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C7FC203B1BDE714400DCA643 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC202C1BDE70F700DCA643 /* Main.storyboard */,
+				C7FC20311BDE70F700DCA643 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C7FC203C1BDE714B00DCA643 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC20401BDE792F00DCA643 /* CardCollectionViewCell.swift */,
+				C7FA96D41BE2F38B00223ACA /* TempleCardView.swift */,
+				C799EDAD1BE7B2A200E42C6C /* Temple.swift */,
+				C799EDB11BE7C23C00E42C6C /* TempleTableViewCell.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C7FC203D1BDE716D00DCA643 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C7FC202F1BDE70F700DCA643 /* Assets.xcassets */,
+				C749EFE31BEAA4DE0033D62F /* templeIcon120x120-white.png */,
+				C749EFE41BEAA4DE0033D62F /* templeIcon180x180-white.png */,
+				C7FC20281BDE70F700DCA643 /* AppDelegate.swift */,
+				C7FC20341BDE70F700DCA643 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -96,6 +149,7 @@
 				TargetAttributes = {
 					C7FC20241BDE70F700DCA643 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = KKY5YLK9HG;
 					};
 				};
 			};
@@ -123,7 +177,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C7FC20331BDE70F700DCA643 /* LaunchScreen.storyboard in Resources */,
+				C749EFE51BEAA4DE0033D62F /* templeIcon120x120-white.png in Resources */,
+				C7FA96D71BE2F5E000223ACA /* Temple Photos in Resources */,
 				C7FC20301BDE70F700DCA643 /* Assets.xcassets in Resources */,
+				C749EFE61BEAA4DE0033D62F /* templeIcon180x180-white.png in Resources */,
 				C7FC202E1BDE70F700DCA643 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,8 +192,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7FC202B1BDE70F700DCA643 /* ViewController.swift in Sources */,
+				C7FA96D51BE2F38B00223ACA /* TempleCardView.swift in Sources */,
+				C7FC203F1BDE71BB00DCA643 /* MainPageViewController.swift in Sources */,
+				C7FC20411BDE792F00DCA643 /* CardCollectionViewCell.swift in Sources */,
 				C7FC20291BDE70F700DCA643 /* AppDelegate.swift in Sources */,
+				C799EDB21BE7C23C00E42C6C /* TempleTableViewCell.swift in Sources */,
+				C799EDAE1BE7B2A200E42C6C /* Temple.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,10 +310,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Temple Flashcards/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "smoosh911.Temple-Flashcards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -260,10 +325,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Temple Flashcards/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "smoosh911.Temple-Flashcards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -286,6 +355,7 @@
 				C7FC20391BDE70F700DCA643 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
