@@ -274,8 +274,8 @@ class MainPageViewController: UIViewController, UITableViewDelegate, UITableView
     
     //size size for each cell
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        let templeName = self.templesCollection[indexPath.row].name
-        let image = UIImage(named: templeName)
+        let templeName: NSString = self.templesCollection[indexPath.row].fileName
+        let image = UIImage(named: templeName.stringByDeletingPathExtension)
         
         if let size = image?.size {
             let h = size.height
