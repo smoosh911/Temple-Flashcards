@@ -149,7 +149,7 @@
 				TargetAttributes = {
 					C7FC20241BDE70F700DCA643 = {
 						CreatedOnToolsVersion = 7.1;
-						DevelopmentTeam = KKY5YLK9HG;
+						DevelopmentTeam = PJA7JC36V9;
 					};
 				};
 			};
@@ -314,7 +314,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Temple Flashcards/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "smoosh911.Temple-Flashcards";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smoosh911.Temple-Flashcards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
@@ -329,7 +329,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "Temple Flashcards/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "smoosh911.Temple-Flashcards";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.smoosh911.Temple-Flashcards";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = 1;
