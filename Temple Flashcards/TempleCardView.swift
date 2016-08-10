@@ -11,7 +11,8 @@ import UIKit
 class TempleCardView: UIView {
     
     var image = UIImage()
-    var filename = ""
+    var filename: NSString = ""
+    var name = ""
     var selected = false
     
     //draw image in cell
@@ -21,7 +22,9 @@ class TempleCardView: UIView {
         UIColor.whiteColor().setStroke()
         path.lineWidth = 2.0
         path.fill()
-        image = UIImage(named: filename)!
+        
+        let imageName = filename.stringByDeletingPathExtension
+        image = UIImage(named: imageName)!
         
         self.alpha = selected ? 0.5 : 1
         

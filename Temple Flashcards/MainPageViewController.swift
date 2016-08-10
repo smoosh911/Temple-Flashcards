@@ -274,16 +274,20 @@ class MainPageViewController: UIViewController, UITableViewDelegate, UITableView
     
     //size size for each cell
     func collectionView(collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAtIndexPath indexPath: NSIndexPath) -> CGSize {
-        let image = UIImage(named: self.templesCollection[indexPath.row].fileName)
+        let templeName = self.templesCollection[indexPath.row].name
+        let image = UIImage(named: templeName)
         
-        let size = image?.size
-        let h = size?.height
-        let w = size?.width
+        if let size = image?.size {
+            let h = size.height
+            let w = size.width
+            
+            let widthRatio = w / h
+            let finalSize = CGSize(width: 125*widthRatio, height: 125)
+            
+            return finalSize
+        }
         
-        let widthRatio = w! / h!
-        let finalSize = CGSize(width: 125*widthRatio, height: 125)
-        
-        return finalSize
+        return CGSize(width: 100.0, height: 100.0)
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
@@ -293,6 +297,7 @@ class MainPageViewController: UIViewController, UITableViewDelegate, UITableView
         cell.viewImage.selected = indexPath.row == selectedCell
         
         cell.viewImage.filename = self.templesCollection[indexPath.row].fileName
+        cell.viewImage.name = self.templesCollection[indexPath.row].name
         cell.viewImage.setNeedsDisplay()
         
         cell.lblLabel.text = self.templesCollection[indexPath.row].name
